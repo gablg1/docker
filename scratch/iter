@@ -1,0 +1,1 @@
+i=0; while true; do echo $i > /out; i=$(expr $i + 1); usleep 10000; done
